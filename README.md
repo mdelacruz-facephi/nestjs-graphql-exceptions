@@ -77,3 +77,7 @@ Response:
   "data": null
 }
 ```
+
+## References
+
+[feat(@nestjs/graphql): base exception filter for apollo exceptions](https://github.com/nestjs/graphql/pull/1292)
