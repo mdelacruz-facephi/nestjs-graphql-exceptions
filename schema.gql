@@ -1,0 +1,14 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""status"""
+type Status {
+  code: String!
+  message: String
+}
+
+type Query {
+  statusWithoutFilter(code: Float!): Status!
+  statusWithFilter(code: Float!): Status!
+}
